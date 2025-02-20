@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imagenes/mejor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;  
+     margin: 0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+   
+}
+.content {
+    background-color: rgba(255, 255, 255, 0.3); /* Blanco con 50% de transparencia */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    width: 1000px;
+    height: 500px;
+    position: absolute; /* Posiciona el contenedor de forma absoluta */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    margin: 10px 0;
+    position: absolute;
+    top:80px;
+    left: 620px;
+}
+.parrafo {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    top: 180px; /* Mueve el párrafo 20px hacia abajo */
+    left: 550px;
+    color: #111;
+}
+
+nav {
+     display: flex;
+    justify-content: center; /* Centra los botones */
+    gap: 650px; 
+    margin-top: 40px;;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.3);;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    width: 150px; /* Ancho fijo */
+    height: 50px;
+    
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #111;
+}
+/* .anterior{
+    width: 100px;
+    height: 50px;
+} */
+
+img {
+    max-width: 300px; /* Establece un ancho máximo para la imagen */
+    height: auto;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 80px;;
+}
+
+footer {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: #111;
+}
+.audio_container{
+    position: absolute;
+    left: 600px;
+    top:380px;
+}
+.btn_sa{
+    width:20px;
+   background-color: aqua; 
+}
+
+
