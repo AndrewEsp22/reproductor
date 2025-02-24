@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="https://fabiofforero.github.io/pagina-basica-reproductor/style.css">
 </head>
 <body>
-    <nav>
-        <input type="button" value="Zoraya" onclick="window.location.href='https://blazing-heart.netlify.app/';">
-        <input type="button" value="Fabio" onclick="window.location.href='https://fabiofforero.github.io/pagina-basica-reproductor/';">
-    </nav>
-    <div class="content">
-        
-        <div>
+
+    <header>
+        <h1>Reproductor de Música</h1>
+        <nav>
+            <button class="nav-btn" onclick="window.location.href='https://blazing-heart.netlify.app/';">Zoraya</button>
+            <button class="nav-btn" onclick="window.location.href='https://fabiofforero.github.io/pagina-basica-reproductor/';">Fabio</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
             <img src="imagenes/rojo.jpg" alt="Imagen del reproductor">
-            <h1>Rojo / J Balvin</h1>
-        </div>
-        <div>
+            <h2>Rojo / J Balvin</h2>
             <p class="parrafo">"Rojo" de J Balvin es una canción lanzada en 2020 como parte de su álbum Colores. La canción es una mezcla de reguetón con una vibra melancólica y emotiva, en la que Balvin canta sobre el arrepentimiento y la pérdida debido a un error en una relación amorosa. La letra expresa sentimientos de culpa y tristeza, con un mensaje sobre valorar a los seres queridos antes de que sea demasiado tarde.</p>
+            
+            <div class="audio_container">
+                <audio controls>
+                    <source src="imagenes/Rojo_JB.mp3" type="audio/mp3">
+                </audio>
+            </div>
         </div>
-        <div class="audio_container">
-            <audio controls>
-                <source src="imagenes/Rojo_JB.mp3" type="audio/mp3">
-            </audio>
-        </div>
-        <footer>
-            <p>Andres Santiago Ferrucho Espitia </p>
-        </footer>
-    </div>
+    </main>
+
+    <footer>
+        <p class="nombre">Andres Santiago Ferrucho Espitia</p>
+    </footer>
+
 </body>
 </html>
